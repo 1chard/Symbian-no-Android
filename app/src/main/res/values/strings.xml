@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Symbian no Android</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="login_titulo_tela">Tela de login</string>
+    <string name="cadastro_titulo_tela">Cadastro de tela</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="endereco_titulo_tela">Cadastro de Livro</string>
+    <string name="cep">CEP</string>
+    <string name="complemento">Complemento</string>
+    <string name="numero">Número</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/endereco_titulo_tela" />
+
+    <EditText
+        android:id="@+id/endereco_cep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cep" />
+
+    <EditText
+        android:id="@+id/endereco_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero" />
+
+    <EditText
+        android:id="@+id/endereco_complemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/complemento" />
+
+
+    <Button
+        android:id="@+id/endereco_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QuemLogado"
+        android:gravity="center"
+        android:id="@+id/endereco_quem_logado"/>
+
+</LinearLayout>
